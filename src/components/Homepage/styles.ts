@@ -17,7 +17,7 @@ export const Sections = styled.div`
     display: none;
   }
 
-  * {
+  > * {
     width: 100vw;
     height: calc(100vh - 70px);
     scroll-snap-align: start;
