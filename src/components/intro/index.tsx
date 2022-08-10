@@ -1,4 +1,5 @@
 import { ImageContainer, IntroMain, Left, Right, Wrapper } from './styles'
+import { TypeWritter } from '../typeWritter'
 
 export const Intro = () => {
   return (
@@ -13,9 +14,14 @@ export const Intro = () => {
           <h2>Hi there, I'm</h2>
           <h1>Erick Baptista</h1>
           <h3>
-            Software Engineer <span></span>
+            Freelancer{' '}
+            <span>
+              <TypeWritter />
+            </span>
           </h3>
-          <a href=""></a>
+          <a href="#portfolio">
+            <img src="assets/down.png" alt="" />
+          </a>
         </Wrapper>
       </Right>
     </IntroMain>

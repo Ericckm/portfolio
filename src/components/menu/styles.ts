@@ -19,19 +19,24 @@ export const MenuContainer = styled.div`
   }
 
   ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     font-size: 32px;
     font-weight: 300;
     color: white;
-    width: 50%;
+    width: 60%;
   }
 
   li {
     margin-bottom: 30px;
+
     a {
       font-size: inherit;
       color: inherit;
       text-decoration: none;
     }
+
     &:hover {
       font-weight: 500;
     }
