@@ -12,6 +12,7 @@ export const Right = styled.div`
 
 export const Left = styled.div`
   flex: 0.5;
+  overflow: hidden;
 `
 
 export const ImageContainer = styled.div`
