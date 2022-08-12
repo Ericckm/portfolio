@@ -4,7 +4,7 @@ import { Intro } from '../intro'
 import { Menu } from '../menu'
 import { Portfolio } from '../portfolio'
 import { Topbar } from '../topbar'
-import { Works } from '../works'
+import { Skills } from '../skills'
 import { HomepageMain, Sections } from './styles'
 
 const Homepage = () => {
@@ -16,7 +16,7 @@ const Homepage = () => {
       <Sections>
         <Intro />
         <Portfolio />
-        <Works />
+        <Skills />
         <Contact />
       </Sections>
     </HomepageMain>

@@ -11,7 +11,7 @@ export const Menu = ({ menuOpen, setMenuOpen }) => {
           title="Portfolio"
           setMenuOpen={setMenuOpen}
         />
-        <MenuList href="#works" title="Works" setMenuOpen={setMenuOpen} />
+        <MenuList href="#skills" title="Skills" setMenuOpen={setMenuOpen} />
         <MenuList href="#contact" title="Contact" setMenuOpen={setMenuOpen} />
       </ul>
     </MenuContainer>

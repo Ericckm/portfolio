@@ -8,6 +8,7 @@ export const PortfolioMain = styled.div`
 
   h1 {
     font-size: 50px;
+    margin-top: 15px;
   }
 
   ul {
@@ -31,7 +32,7 @@ export const Items = styled.div`
   height: 150px;
   border: 1px solid rgb(240, 239, 239);
   border-radius: 20px;
-  margin: 10px 20px;
+  margin: 24px 20px;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -7,7 +7,6 @@ export const HomepageMain = styled.div`
 export const Sections = styled.div`
   width: 100%;
   height: calc(100vh - 70px);
-  background-color: lightsalmon;
   position: relative;
   top: 70px;
   scroll-behavior: smooth;

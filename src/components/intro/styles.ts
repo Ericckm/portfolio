@@ -3,6 +3,11 @@ import styled from 'styled-components'
 export const IntroMain = styled.div`
   background-color: white;
   display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 export const Right = styled.div`
@@ -27,6 +32,10 @@ export const ImageContainer = styled.div`
 
   img {
     height: 70%;
+  }
+
+  @media (max-width: 768px) {
+    align-items: flex-start;
   }
 `
 

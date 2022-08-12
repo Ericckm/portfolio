@@ -14,7 +14,7 @@ export const Intro = () => {
           <h2>Hi there, I'm</h2>
           <h1>Erick Baptista</h1>
           <h3>
-            Freelancer{' '}
+            Junior{' '}
             <span>
               <TypeWritter />
             </span>

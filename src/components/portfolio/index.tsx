@@ -19,15 +19,11 @@ export const Portfolio = () => {
     },
     {
       id: 'web',
-      title: 'Web App'
+      title: 'Front-end'
     },
     {
       id: 'mobile',
-      title: 'Mobile App'
-    },
-    {
-      id: 'design',
-      title: 'Design'
+      title: 'Back-end'
     }
   ]
 
@@ -58,6 +54,7 @@ export const Portfolio = () => {
             open={selected === i.id}
             setSelected={setSelected}
             id={i.id}
+            key={i.id}
           />
         ))}
       </ul>
