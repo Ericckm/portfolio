@@ -34,8 +34,16 @@ export const ProjectSlider = () => {
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
                   <LinkDiv>
-                    {d.github && <a href={d.github}>Github</a>}
-                    {d.deploy && <a href={d.deploy}>Deployed</a>}
+                    {d.github && (
+                      <a href={d.github} target="_blank">
+                        Github
+                      </a>
+                    )}
+                    {d.deploy && (
+                      <a href={d.deploy} target="_blank">
+                        Deployed
+                      </a>
+                    )}
                   </LinkDiv>
                 </LeftContainer>
               </Left>

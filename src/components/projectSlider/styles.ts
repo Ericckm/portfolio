@@ -11,6 +11,9 @@ export const Project = styled.div`
     height: 50px;
     position: absolute;
     cursor: pointer;
+    @media (max-width: 920px) {
+      display: none;
+    }
   }
   .left {
     left: 100px;
@@ -28,6 +31,13 @@ export const SliderDiv = styled.div`
   position: absolute;
   left: 0;
   transition: all 1s ease-out;
+
+  @media (max-width: 920px) {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 `
 
 export const Container = styled.div`
@@ -45,6 +55,13 @@ export const Item = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+
+  @media (max-width: 920px) {
+    width: 90%;
+    height: 180px;
+    margin: 5px 0;
+  }
 `
 
 export const Left = styled.div`
@@ -53,12 +70,16 @@ export const Left = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+
+  @media (max-width: 920px) {
+    flex: 3;
+  }
 `
 
 export const LeftContainer = styled.div`
   height: 100%;
   margin: 0 8px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -102,9 +123,17 @@ export const Right = styled.div`
   background-color: lightgray;
   border-radius: 10px;
 
+  @media (max-width: 920px) {
+    flex: 2;
+  }
+
+  @media (max-width: 700px) {
+    display: none;
+  }
+
   img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 `
