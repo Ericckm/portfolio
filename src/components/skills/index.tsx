@@ -1,5 +1,5 @@
 import { Stacks, Title, WorksMain } from './styles'
-import { skillsData } from '../../dummyData/skills'
+import { skillsData } from '../../data/skills'
 import { SkillsList } from '../skillsList'
 
 export const Skills = () => {

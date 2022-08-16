@@ -9,7 +9,7 @@ import {
   LinkDiv
 } from './styles'
 
-import { projectData } from '../../dummyData/projectData'
+import { projectData } from '../../data/projectData'
 import { useState } from 'react'
 
 export const ProjectSlider = () => {
