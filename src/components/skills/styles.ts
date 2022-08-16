@@ -20,7 +20,7 @@ export const Title = styled.div`
     font-weight: 600;
 
     @media (max-width: 768px) {
-      font-size: 36px;
+      font-size: 30px;
     }
   }
 
@@ -30,7 +30,7 @@ export const Title = styled.div`
     width: 70%;
 
     @media (max-width: 768px) {
-      font-size: 16px;
+      font-size: 14px;
     }
   }
 `
@@ -48,5 +48,9 @@ export const Stacks = styled.div`
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+
+    @media (max-width: 320px) {
+      width: 100%;
+    }
   }
 `

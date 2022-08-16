@@ -20,6 +20,10 @@ export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 380px) {
+    padding: 2px 2px;
+  }
 `
 
 export const Left = styled.div`
@@ -77,6 +81,11 @@ export const Hamburguer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
+
+  @media (max-width: 380px) {
+    width: 15px;
+    height: 15px;
+  }
 
   span {
     width: 100%;

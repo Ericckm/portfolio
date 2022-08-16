@@ -57,18 +57,22 @@ export const Wrapper = styled.div`
   }
 
   h1 {
-    font-size: 60px;
-    padding: 8px;
+    font-size: 50px;
+    @media (max-width: 320px) {
+      font-size: 36px;
+    }
   }
 
   h2 {
-    font-size: 35px;
-    padding: 8px;
+    font-size: 28px;
   }
 
   h3 {
-    padding: 8px;
-    font-size: 30px;
+    font-size: 28px;
+
+    @media (max-width: 340px) {
+      font-size: 18px;
+    }
 
     span {
       font-size: inherit;

@@ -58,8 +58,8 @@ export const Item = styled.div`
   flex-wrap: wrap;
 
   @media (max-width: 920px) {
-    width: 90%;
-    height: 180px;
+    width: 98%;
+    height: 220px;
     margin: 5px 0;
   }
 `
