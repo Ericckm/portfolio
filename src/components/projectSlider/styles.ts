@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Project = styled.div`
-  background-color: crimson;
+  background-color: ${(props) => props.theme.colors.crimson};
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,6 +27,7 @@ export const SliderDiv = styled.div`
   display: flex;
   position: absolute;
   left: 0;
+  transition: all 1s ease-out;
 `
 
 export const Container = styled.div`
@@ -34,7 +35,6 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid blue;
 `
 
 export const Item = styled.div`
@@ -58,10 +58,19 @@ export const Left = styled.div`
 
 export const LeftContainer = styled.div`
   height: 100%;
-  padding: 5px;
+  margin: 0 8px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+
+  h2 {
+    font-weight: 600;
+    color: ${(props) => props.theme.colors.secundary};
+  }
+  p {
+    font-weight: 300;
+    color: ${(props) => props.theme.colors.secundary};
+  }
 `
 
 export const LinkDiv = styled.div`
@@ -71,9 +80,15 @@ export const LinkDiv = styled.div`
   a {
     padding: 6px;
     border-radius: 10px;
-    background-color: ${(props) => props.theme.colors.secundary};
+    background-color: ${(props) => props.theme.colors.crimson};
     color: white;
     text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      background-color: white;
+      color: crimson;
+    }
   }
 `
 
@@ -84,6 +99,8 @@ export const Right = styled.div`
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  background-color: lightgray;
+  border-radius: 10px;
 
   img {
     width: 100%;
