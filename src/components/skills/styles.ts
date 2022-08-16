@@ -12,9 +12,8 @@ export const Title = styled.div`
   display: flex;
   flex: 1;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 15px;
 
   h3 {
     font-size: 50px;
@@ -27,10 +26,11 @@ export const Title = styled.div`
 
   p {
     font-size: 20px;
-    width: 80%;
+    font-weight: 300;
+    width: 70%;
 
     @media (max-width: 768px) {
-      font-size: 12px;
+      font-size: 16px;
     }
   }
 `

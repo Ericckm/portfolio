@@ -8,7 +8,7 @@ export const ItemList = styled.li`
   font-weight: 500;
   padding: 8px;
   border-radius: 10px;
-  transition: all 0.5s ease;
+  transition: all 1s ease;
   cursor: pointer;
   justify-content: center;
   align-items: center;

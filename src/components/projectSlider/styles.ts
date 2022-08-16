@@ -105,6 +105,7 @@ export const LinkDiv = styled.div`
     color: white;
     text-decoration: none;
     font-weight: 500;
+    transition: all 0.5s ease;
 
     &:hover {
       background-color: white;

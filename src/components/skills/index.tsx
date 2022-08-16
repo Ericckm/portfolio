@@ -9,9 +9,9 @@ export const Skills = () => {
         <h3>My skills</h3>
         <p>
           Through my studies, I've gained a solid understanding of computer
-          science and web development concepts, and have dedicated a lot of my
-          free time to apply these concepts to real-world scenarios and
-          applications.
+          science and web development, and have dedicated a lot of my free time
+          practicing all these concepts to get Developer ready and apply all
+          this knowledge in real-world scenarios and applications.
         </p>
       </Title>
       <Stacks>
