@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const MenuContainer = styled.div`
   width: 300px;
   height: 100vh;
-  background-color: ${(props) => props.theme.colors.primary};
+  background-color: ${(props) => props.theme.colors.secundary};
   position: fixed;
   top: 0;
   right: -300px;

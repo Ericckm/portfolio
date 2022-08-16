@@ -65,11 +65,11 @@ export const LeftContainer = styled.div`
 
   h2 {
     font-weight: 600;
-    color: ${(props) => props.theme.colors.secundary};
+    color: ${(props) => props.theme.colors.black};
   }
   p {
     font-weight: 300;
-    color: ${(props) => props.theme.colors.secundary};
+    color: ${(props) => props.theme.colors.black};
   }
 `
 

@@ -4,14 +4,14 @@ export const TopbarMain = styled.div`
   width: 100%;
   height: 70px;
   background-color: white;
-  color: ${(props) => props.theme.colors.primary};
+  color: ${(props) => props.theme.colors.secundary};
   position: fixed;
   top: 0;
   z-index: 3;
   transition: all 1s ease;
 
   &.open {
-    background-color: ${(props) => props.theme.colors.primary};
+    background-color: ${(props) => props.theme.colors.secundary};
     color: white;
   }
 `
@@ -81,7 +81,7 @@ export const Hamburguer = styled.div`
   span {
     width: 100%;
     height: 3px;
-    background-color: ${(props) => props.theme.colors.primary};
+    background-color: ${(props) => props.theme.colors.secundary};
     transform-origin: left;
     transition: all 2s ease;
   }

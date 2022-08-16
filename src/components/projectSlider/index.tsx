@@ -9,34 +9,55 @@ import {
   LinkDiv
 } from './styles'
 
+import { projectData } from '../../dummyData/projectData'
+import { useState } from 'react'
+
 export const ProjectSlider = () => {
+  const data = projectData
+
+  const [currentSlide, setCurrentSlide] = useState(0)
+
+  const handleClick = (direction) => {
+    direction === 'left'
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : data.length - 1)
+      : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0)
+  }
+
   return (
-    <Project>
-      <SliderDiv>
-        <Container>
-          <Item>
-            <Left>
-              <LeftContainer>
-                <h2>title</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  maiores reiciendis reprehenderit quae quam? Ipsam dolore rerum
-                  atque similique, saepe odio aut aperiam odit nobis culpa dicta
-                </p>
-                <LinkDiv>
-                  <a href="">project link</a>
-                  <a href="">deployed</a>
-                </LinkDiv>
-              </LeftContainer>
-            </Left>
-            <Right>
-              <img src="assets/q9Test.png" alt="" />
-            </Right>
-          </Item>
-        </Container>
+    <Project id="portfolio">
+      <SliderDiv style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
+        {data?.map((d) => (
+          <Container key={d.id}>
+            <Item>
+              <Left>
+                <LeftContainer>
+                  <h2>{d.title}</h2>
+                  <p>{d.desc}</p>
+                  <LinkDiv>
+                    {d.github && <a href={d.github}>Github</a>}
+                    {d.deploy && <a href={d.deploy}>Deployed</a>}
+                  </LinkDiv>
+                </LeftContainer>
+              </Left>
+              <Right>
+                <img src={d.img} alt="" />
+              </Right>
+            </Item>
+          </Container>
+        ))}
       </SliderDiv>
-      <img src="assets/arrow.png" className="arrow left" alt="" />
-      <img src="assets/arrow.png" className="arrow right" alt="" />
+      <img
+        src="assets/arrow.png"
+        className="arrow left"
+        alt=""
+        onClick={() => handleClick('left')}
+      />
+      <img
+        src="assets/arrow.png"
+        className="arrow right"
+        alt=""
+        onClick={() => handleClick('')}
+      />
     </Project>
   )
 }

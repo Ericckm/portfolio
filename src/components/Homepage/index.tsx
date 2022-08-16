@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { Contact } from '../contact'
 import { Intro } from '../intro'
 import { Menu } from '../menu'
-import { Portfolio } from '../portfolio'
 import { Topbar } from '../topbar'
 import { Skills } from '../skills'
 import { HomepageMain, Sections } from './styles'
@@ -17,7 +16,6 @@ const Homepage = () => {
       <Sections>
         <Intro />
         <ProjectSlider />
-        <Portfolio />
         <Skills />
         <Contact />
       </Sections>

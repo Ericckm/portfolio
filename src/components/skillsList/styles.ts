@@ -20,7 +20,7 @@ export const ItemList = styled.li`
   }
 
   &:hover {
-    background-color: ${(props) => props.theme.colors.primary};
+    background-color: ${(props) => props.theme.colors.black};
     color: white;
   }
 `

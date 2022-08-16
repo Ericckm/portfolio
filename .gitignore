@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 dummyData
+old
 
 # testing
 /coverage
