@@ -1,14 +1,17 @@
 import styled from 'styled-components'
 
-export const Li = styled.li`
+export const ItemList = styled.li`
   display: flex;
-  font-size: 20px;
+  font-size: 16px;
+  min-width: 80px;
+  min-height: 40px;
   font-weight: 500;
   padding: 8px;
   border-radius: 10px;
   transition: all 0.5s ease;
-  margin: 0px 20px;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
 
   i {
     display: flex;

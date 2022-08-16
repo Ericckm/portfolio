@@ -5,43 +5,54 @@ export const WorksMain = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 `
 
 export const Title = styled.div`
-  width: 60%;
   display: flex;
+  flex: 1;
   flex-direction: column;
-  padding: 5px;
+  justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 15px;
 
   h3 {
     font-size: 50px;
     font-weight: 600;
+
+    @media (max-width: 768px) {
+      font-size: 36px;
+    }
   }
 
   p {
     font-size: 20px;
-  }
+    width: 80%;
 
-  @media (max-width: 768px) {
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
   }
 `
 
 export const Stacks = styled.div`
   width: 60%;
   display: flex;
-  height: 60%;
   align-items: center;
   justify-content: center;
+  flex: 3;
 
   ul {
+    min-height: 60%;
     width: 80%;
-    height: 70%;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 50px;
+    justify-content: space-around;
     align-items: center;
+    gap: 20px;
+
+    @media (max-width: 768px) {
+      gap: 5px;
+    }
   }
 `

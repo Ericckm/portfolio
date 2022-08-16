@@ -1,11 +1,15 @@
 import styled from 'styled-components'
 
-export const PortfolioLi = styled.li`
-  font-size: 14px;
-  margin-right: 50px;
-  padding: 7px;
+export const ItemContainer = styled.li`
+  padding: 8px;
+  font-size: 16px;
   border-radius: 10px;
+  font-weight: 500;
   cursor: pointer;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
 
   &.open {
     background-color: ${(props) => props.theme.colors.primary};

@@ -6,6 +6,7 @@ import { Portfolio } from '../portfolio'
 import { Topbar } from '../topbar'
 import { Skills } from '../skills'
 import { HomepageMain, Sections } from './styles'
+import { ProjectSlider } from '../projectSlider'
 
 const Homepage = () => {
   const [menuOpen, setMenuOpen] = useState<boolean>(false)
@@ -15,6 +16,7 @@ const Homepage = () => {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Sections>
         <Intro />
+        <ProjectSlider />
         <Portfolio />
         <Skills />
         <Contact />

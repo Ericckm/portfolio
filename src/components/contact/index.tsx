@@ -17,12 +17,12 @@ export const Contact = () => {
         </Title>
         <Social>
           <div>
-            <a href="https://github.com/Ericckm" target="blank">
+            <a href="https://github.com/ericckm" target="blank">
               <GitHub className="icon" />
             </a>
           </div>
           <div>
-            <a href="https://github.com/Ericckm" target="blank">
+            <a href="https://www.linkedin.com/in/ericckm/" target="blank">
               <LinkedIn className="icon" />
             </a>
           </div>

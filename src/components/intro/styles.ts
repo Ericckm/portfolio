@@ -12,6 +12,7 @@ export const IntroMain = styled.div`
 
 export const Right = styled.div`
   flex: 0.5;
+  width: 100%;
   position: relative;
 `
 
@@ -29,6 +30,10 @@ export const ImageContainer = styled.div`
   align-items: flex-end;
   justify-content: center;
   float: right;
+  @media (max-width: 768px) {
+    height: 600px;
+    width: 600px;
+  }
 
   img {
     height: 70%;
@@ -42,22 +47,29 @@ export const ImageContainer = styled.div`
 export const Wrapper = styled.div`
   width: 100%;
   height: 100%;
-  padding-left: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
+  @media (max-width: 768px) {
+    justify-content: center;
+    align-items: center;
+  }
+
   h1 {
     font-size: 60px;
-    margin: 10px 0;
+    padding: 8px;
   }
 
   h2 {
     font-size: 35px;
+    padding: 8px;
   }
 
   h3 {
+    padding: 8px;
     font-size: 30px;
+
     span {
       font-size: inherit;
       color: crimson;

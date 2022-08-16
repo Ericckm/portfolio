@@ -7,13 +7,21 @@ export const PortfolioMain = styled.div`
   align-items: center;
 
   h1 {
-    font-size: 50px;
-    margin-top: 15px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-size: 44px;
+
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
   }
 
   ul {
-    margin: 10px;
-    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 40px;
     list-style: none;
     display: flex;
   }
@@ -21,10 +29,17 @@ export const PortfolioMain = styled.div`
 
 export const Wrapper = styled.div`
   width: 70%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
 `
 
 export const Items = styled.div`
@@ -40,6 +55,12 @@ export const Items = styled.div`
   position: relative;
   transition: all 0.5s ease;
   cursor: pointer;
+
+  @media (max-width: 768px) {
+    display: flex;
+    width: 120px;
+    height: 120px;
+  }
 
   h3 {
     position: absolute;

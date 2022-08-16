@@ -9,6 +9,7 @@ export const TopbarMain = styled.div`
   top: 0;
   z-index: 3;
   transition: all 1s ease;
+
   &.open {
     background-color: ${(props) => props.theme.colors.primary};
     color: white;
@@ -24,6 +25,7 @@ export const Wrapper = styled.div`
 export const Left = styled.div`
   display: flex;
   align-items: center;
+  gap: 3px;
 
   a {
     font-size: 40px;
@@ -31,22 +33,38 @@ export const Left = styled.div`
     text-decoration: none;
     color: inherit;
     margin-right: 40px;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 `
 
 export const IconContainer = styled.div`
   display: flex;
   align-items: center;
-  margin-left: 30px;
+  flex-wrap: wrap;
+  gap: 3px;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+    margin-left: 0;
+  }
 
   .icon {
     font-size: 18px;
-    margin-right: 5px;
+
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
   }
 
   span {
     font-size: 15px;
     font-weight: 500;
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
   }
 `
 

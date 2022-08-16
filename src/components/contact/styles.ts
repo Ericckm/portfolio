@@ -3,13 +3,12 @@ import styled from 'styled-components'
 export const ContactMain = styled.div`
   background-color: white;
   display: flex;
-  padding: 10px;
   width: 100%;
   justify-content: center;
   align-items: center;
 `
 export const Left = styled.div`
-  flex: 0.4;
+  flex: 2;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -17,30 +16,43 @@ export const Left = styled.div`
 
   img {
     height: 60%;
-    width: 70%;
+    width: 60%;
   }
 `
 
 export const Right = styled.div`
-  flex: 0.6;
+  flex: 3;
   display: flex;
+  height: 50%;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: space-around;
-  height: 40%;
+  gap: 40px;
+  margin: 0 15px;
 `
 
 export const Title = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 14px;
+
   h2 {
     font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      font-size: 24px;
+    }
   }
 
   p {
     font-size: 15px;
-    margin: 15px 0px;
+
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
   }
 `
 
@@ -54,5 +66,9 @@ export const Social = styled.div`
 
   .icon {
     font-size: 30px;
+
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
   }
 `

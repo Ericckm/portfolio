@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Stacks, Title, WorksMain } from './styles'
 import { skillsData } from '../../dummyData/skills'
 import { SkillsList } from '../skillsList'

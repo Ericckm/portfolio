@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Li } from './styles'
+import { ItemList } from './styles'
 
 export const SkillsList = ({ title, icon }) => {
   const [shown, setShown] = useState(false)
@@ -13,8 +13,8 @@ export const SkillsList = ({ title, icon }) => {
   }
 
   return (
-    <Li onMouseOver={handleEnter} onMouseLeave={handleLeave}>
+    <ItemList onMouseOver={handleEnter} onMouseLeave={handleLeave}>
       {shown ? title : <i className={icon}></i>}
-    </Li>
+    </ItemList>
   )
 }
