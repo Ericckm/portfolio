@@ -7,10 +7,13 @@ import Head from 'next/head'
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
       <ThemeProvider theme={theme}>
+        <Head>
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+        </Head>
         <Component {...pageProps} />
         <GlobalStyle />
       </ThemeProvider>

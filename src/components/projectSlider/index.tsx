@@ -41,7 +41,7 @@ export const ProjectSlider = () => {
                     )}
                     {d.deploy && (
                       <a href={d.deploy} target="_blank">
-                        Deployed
+                        Project
                       </a>
                     )}
                   </LinkDiv>
