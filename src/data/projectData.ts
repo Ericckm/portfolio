@@ -2,7 +2,7 @@ export const projectData = [
   {
     id: 1,
     title: 'DogBreed',
-    desc: 'Teste realizado para empresa Q9. Recebimento de token para cadastro e validação de email, tela com menu dinâmico fazendo request da API.',
+    desc: 'Professional test for Q9. Token auth for register, email validation, fetch methods, dynamic, private / public pages, API.',
     img: 'assets/q9Test.png',
     github: 'https://github.com/Ericckm/next-breeddog',
     deploy: 'https://next-breeddog.vercel.app/register'
@@ -10,7 +10,7 @@ export const projectData = [
   {
     id: 2,
     title: 'Attendance List',
-    desc: 'Lista de presença simples para praticar React.',
+    desc: 'Simple list for react component practicing purpose.',
     img: 'assets/attendance.png',
     github: 'https://github.com/Ericckm/attendance-list',
     deploy: 'https://attendance-list-mu.vercel.app/'

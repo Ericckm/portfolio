@@ -50,7 +50,7 @@ export const Stacks = styled.div`
     align-items: center;
 
     @media (max-width: 500px) {
-      width: 100%;
+      width: 90%;
       height: 100%;
     }
   }
