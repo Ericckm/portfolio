@@ -10,6 +10,12 @@ export const Sections = styled.div`
   position: relative;
   top: 70px;
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+
+  @media (max-width: 768px) {
+    scroll-snap-type: none;
+  }
+
   scrollbar-width: none;
   &::-webkit-scrollbar {
     display: none;
