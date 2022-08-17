@@ -19,7 +19,7 @@ export const Intro = () => {
               <TypeWritter />
             </span>
           </h3>
-          <a href="#portfolio">
+          <a href="#project">
             <img src="assets/down.png" alt="" />
           </a>
         </Wrapper>

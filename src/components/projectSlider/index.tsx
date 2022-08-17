@@ -24,7 +24,7 @@ export const ProjectSlider = () => {
   }
 
   return (
-    <Project id="portfolio">
+    <Project id="project">
       <SliderDiv style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
         {data?.map((d) => (
           <Container key={d.id}>
