@@ -49,8 +49,9 @@ export const Stacks = styled.div`
     justify-content: space-around;
     align-items: center;
 
-    @media (max-width: 320px) {
+    @media (max-width: 500px) {
       width: 100%;
+      height: 100%;
     }
   }
 `
