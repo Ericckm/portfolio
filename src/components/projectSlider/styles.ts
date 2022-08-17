@@ -33,9 +33,9 @@ export const SliderDiv = styled.div`
   transition: all 1s ease-out;
 
   @media (max-width: 920px) {
-    height: 100%;
+    height: 90%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
   }
 `
@@ -58,8 +58,8 @@ export const Item = styled.div`
   flex-wrap: wrap;
 
   @media (max-width: 920px) {
-    height: 180px;
-    margin: 2px 0;
+    height: 175px;
+    margin: 0 8px;
   }
 `
 

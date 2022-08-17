@@ -2,7 +2,7 @@ export const projectData = [
   {
     id: 1,
     title: 'DogBreed',
-    desc: 'Teste realizado para empresa Q9. Recebimento de token para cadastro e validação de email, tela com menu dinâmico fazendo request da API. descrição completa no README.MD.',
+    desc: 'Teste realizado para empresa Q9. Recebimento de token para cadastro e validação de email, tela com menu dinâmico fazendo request da API.',
     img: 'assets/q9Test.png',
     github: 'https://github.com/Ericckm/next-breeddog',
     deploy: 'https://next-breeddog.vercel.app/register'
