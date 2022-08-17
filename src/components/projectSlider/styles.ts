@@ -35,7 +35,7 @@ export const SliderDiv = styled.div`
   @media (max-width: 920px) {
     height: 90%;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
   }
 `
