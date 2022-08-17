@@ -58,9 +58,8 @@ export const Item = styled.div`
   flex-wrap: wrap;
 
   @media (max-width: 920px) {
-    width: 98%;
-    height: 220px;
-    margin: 5px 0;
+    height: 180px;
+    margin: 2px 0;
   }
 `
 
@@ -72,7 +71,7 @@ export const Left = styled.div`
   align-items: center;
 
   @media (max-width: 920px) {
-    flex: 3;
+    height: 100%;
   }
 `
 

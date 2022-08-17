@@ -10,13 +10,13 @@ export const WorksMain = styled.div`
 
 export const Title = styled.div`
   display: flex;
-  flex: 1;
+  flex: 2;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 
   h3 {
-    font-size: 50px;
+    font-size: 44px;
     font-weight: 600;
 
     @media (max-width: 768px) {
@@ -27,7 +27,7 @@ export const Title = styled.div`
   p {
     font-size: 20px;
     font-weight: 300;
-    width: 70%;
+    width: 80%;
 
     @media (max-width: 768px) {
       font-size: 14px;
@@ -39,7 +39,7 @@ export const Stacks = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 3;
+  flex: 5;
 
   ul {
     width: 60%;
