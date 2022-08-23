@@ -9,11 +9,11 @@ export const projectData = [
   },
   {
     id: 2,
-    title: 'Attendance List',
-    desc: 'Simple list for react component practicing purpose.',
-    img: 'assets/attendance.png',
-    github: 'https://github.com/Ericckm/attendance-list',
-    deploy: 'https://attendance-list-mu.vercel.app/'
+    title: 'Chat App',
+    desc: 'Enter the same room as your friend and chat real time.',
+    img: 'assets/chat-app.png',
+    github: 'https://github.com/Ericckm/chat-app',
+    deploy: 'https://ericckm-chat-app.herokuapp.com/'
   },
   {
     id: 3,

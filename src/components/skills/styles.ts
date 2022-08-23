@@ -12,15 +12,16 @@ export const Title = styled.div`
   display: flex;
   flex: 2;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 
   h3 {
+    margin-top: 15px;
     font-size: 44px;
     font-weight: 600;
 
     @media (max-width: 768px) {
-      font-size: 30px;
+      font-size: 26px;
     }
   }
 
@@ -30,7 +31,7 @@ export const Title = styled.div`
     width: 80%;
 
     @media (max-width: 768px) {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
 `
