@@ -87,7 +87,8 @@ export const Wrapper = styled.div`
     left: 40%;
 
     @media (max-width: 768px) {
-      left: 50%;
+      position: absolute;
+      left: 46%;
     }
 
     img {
