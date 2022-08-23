@@ -86,6 +86,10 @@ export const Wrapper = styled.div`
     bottom: 10px;
     left: 40%;
 
+    @media (max-width: 768px) {
+      left: 50%;
+    }
+
     img {
       width: 30px;
       animation: arrowBlink 2s infinite;
