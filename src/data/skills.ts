@@ -50,7 +50,7 @@ export const skillsData = [
     icon: 'devicon-git-plain-wordmark'
   },
   {
-    id: 10,
+    id: 11,
     title: 'GitHub',
     icon: 'devicon-github-original'
   }

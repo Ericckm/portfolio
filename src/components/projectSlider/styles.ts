@@ -35,7 +35,7 @@ export const SliderDiv = styled.div`
   @media (max-width: 920px) {
     height: 100%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
   }
 `
 
@@ -121,18 +121,18 @@ export const Right = styled.div`
   overflow: hidden;
   background-color: lightgray;
   border-radius: 10px;
-
+  width: 100%;
   @media (max-width: 920px) {
     flex: 2;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 350px) {
     display: none;
   }
 
   img {
-    width: 100%;
     height: 100%;
+    width: 100%;
     object-fit: contain;
   }
 `

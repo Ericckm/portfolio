@@ -58,19 +58,19 @@ export const Wrapper = styled.div`
 
   h1 {
     font-size: 50px;
-    @media (max-width: 320px) {
-      font-size: 36px;
+    @media (max-width: 460px) {
+      font-size: 34px;
     }
   }
 
   h2 {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   h3 {
     font-size: 28px;
 
-    @media (max-width: 340px) {
+    @media (max-width: 460px) {
       font-size: 18px;
     }
 
