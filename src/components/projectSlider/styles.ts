@@ -126,7 +126,7 @@ export const Right = styled.div`
     flex: 2;
   }
 
-  @media (max-width: 350px) {
+  @media (max-width: 345px) {
     display: none;
   }
 
