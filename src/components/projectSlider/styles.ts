@@ -122,6 +122,9 @@ export const Right = styled.div`
   background-color: lightgray;
   border-radius: 10px;
   width: 100%;
+  position: relative;
+  object-fit: cover;
+
   @media (max-width: 920px) {
     flex: 2;
   }

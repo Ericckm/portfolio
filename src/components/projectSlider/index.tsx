@@ -11,6 +11,7 @@ import {
 
 import { projectData } from '../../data/projectData'
 import { useState } from 'react'
+import Image from 'next/image'
 
 export const ProjectSlider = () => {
   const data = projectData
@@ -48,7 +49,8 @@ export const ProjectSlider = () => {
                 </LeftContainer>
               </Left>
               <Right>
-                <img src={d.img} alt="" />
+                <Image src={d.img} alt="gym app" layout="fill" priority />
+                {/* <img src={d.img} alt="" /> */}
               </Right>
             </Item>
           </Container>

@@ -6,6 +6,7 @@
 .pnp.js
 dummyData
 old
+data
 
 # testing
 /coverage
